@@ -182,7 +182,7 @@ public class MainActivity extends AppCompatActivity {
 
         boolean isBase54 = firmaBase64.equals("");
         if (isBase54) {
-            Toast.makeText(getApplicationContext(), "Firma Invalida, Debes firmar por huevos.",
+            Toast.makeText(getApplicationContext(), "Debes firmar",
                     Toast.LENGTH_SHORT).show();
             return;
         }
